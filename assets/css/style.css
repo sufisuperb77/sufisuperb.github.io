@@ -4605,7 +4605,7 @@ blockquote::before {
 }
 
 .portfolio__modal--info {
-  gap: 2rem;
+  gap: 8rem;
 }
 
 @media only screen and (max-width: 767px) {
