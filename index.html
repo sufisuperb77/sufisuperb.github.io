@@ -100,9 +100,22 @@
                                 <h2 class="hero__content--title mb-15">Sufi Firdaus! </h2>
                                 <h3 class="hero__content--subtitle2 mb-20">Developer and Teacher</h3>
                                 <p class="hero__content--desc mb-30">Passionate Multimedia Developer and Educator experienced in AR development, app creation and . Committed to exceptional user experiences, engaging learning environments, and innovative technology solutions.</p>
-                                <button class="primary__btn download__btn mb-30">
-                                    <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                                    Download Resume
+                                <button class="primary__btn download__btn mb-30" onclick="downloadFile('assets/file/Resume Academia.pdf')">
+                                    <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                Resume Academia
+                                </button>
+                                
+                                <button class="primary__btn download__btn mb-30" onclick="downloadFile('assets/file/Resume Developer.pdf')">
+                                    <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                Resume Developer
                                 </button>
                                 <div class="social__share style2 d-flex align-items-center">
                                     <span class="social__share--title">Follow Me: </span>
@@ -183,13 +196,12 @@
             <footer class="footer footer__section2">
                 <div class="container">
                     <div class="main__footer d-flex justify-content-between align-items-center">
-                        <p class="copyright__content mb-0">Developed with <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="text-paragraph" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                            </span>  by <span><a class="text__secondary" href="#">Morex</a></span>© 2023</p>
-                        <ul class="footer__menu d-flex">
+                        <p class="copyright__content mb-0">Copyright <span>
+                            </span>© 2023 <span> - Sufi Firdaus</span></p>
+                        <!--<ul class="footer__menu d-flex">
                             <li><a class="footer__menu--link" href="shop.html">Terms & Condition</a></li>
                             <li><a class="footer__menu--link" href="about.html"> Privacy Policy</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </footer>
@@ -222,6 +234,15 @@
       document.getElementById("light__to--dark")?.classList.remove("dark--version");
     } 
   </script>
+
+<script>
+    function downloadFile(filepath) {
+        var link = document.createElement('a');
+        link.href = filepath;
+        link.download = filepath.substring(filepath.lastIndexOf('/') + 1);
+        link.click();
+    }
+</script>
   
 </body>
 </html>
