@@ -4594,6 +4594,7 @@ blockquote::before {
   .portfolio__modal--title {
     font-size: 2.8rem;
     line-height: 3.2rem;
+   
   }
 }
 
@@ -4605,7 +4606,7 @@ blockquote::before {
 }
 
 .portfolio__modal--info {
-  gap: 8rem;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4617,8 +4618,23 @@ blockquote::before {
     -webkit-box-align: start !important;
         -ms-flex-align: start !important;
             align-items: flex-start !important;
+            
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .portfolio__modal--info {
+    gap: 10rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio__modal--info {
+
+    gap: 10rem;
+  }
+}
+
 
 .portfolio__modal--info--text {
   font-size: 1.6rem;
