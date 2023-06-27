@@ -151,7 +151,7 @@
                     <div class="row mb--n30">
                         <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                             <article class="blog__card">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blog1">
                                     <div class="blog__card--thumbnail">
                                         <img src="assets/img/blog/blog1.png" alt="img">
                                     </div>
@@ -163,9 +163,10 @@
                                 </a>
                             </article>
                         </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                             <article class="blog__card">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blog2">
                                     <div class="blog__card--thumbnail">
                                         <img src="assets/img/blog/blog2.png" alt="img">
                                     </div>
@@ -177,6 +178,24 @@
                                 </a>
                             </article>
                         </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
+                            <article class="blog__card">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blog3">
+                                    <div class="blog__card--thumbnail">
+                                        <img src="assets/img/blog/blog6.png" alt="img">
+                                    </div>
+                                    <div class="blog__card--content">
+                                        <span class="blog__card--tag">BUE</span>
+                                        <h3 class="blog__card--title mb-12">How to built a vue nuxt js  template</h3>
+                                        <p class="blog__card--desc">Lorem ipsum dolor sit amet,elit, sed do eiusmod tempor incididunt ut labore et dolore aliqu</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div> 
+
+                        <div id="disqus_thread"></div>
+<!-- 
                         <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                             <article class="blog__card">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
@@ -191,6 +210,7 @@
                                 </a>
                             </article>
                         </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                             <article class="blog__card">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
@@ -205,6 +225,7 @@
                                 </a>
                             </article>
                         </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                             <article class="blog__card">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
@@ -218,21 +239,10 @@
                                     </div>
                                 </a>
                             </article>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
-                            <article class="blog__card">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal">
-                                    <div class="blog__card--thumbnail">
-                                        <img src="assets/img/blog/blog6.png" alt="img">
-                                    </div>
-                                    <div class="blog__card--content">
-                                        <span class="blog__card--tag">BUE</span>
-                                        <h3 class="blog__card--title mb-12">How to built a vue nuxt js  template</h3>
-                                        <p class="blog__card--desc">Lorem ipsum dolor sit amet,elit, sed do eiusmod tempor incididunt ut labore et dolore aliqu</p>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
+                        </div>-->
+
+
+
                     </div>
                 </div>
             </div>
@@ -242,10 +252,10 @@
     </main>
 
 
-    <div class="modal fade" id="blogModal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal fade" id="blog1" tabindex="-1" style="display: none;" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered blog__modal--dialog">
           <div class="modal-content modal-content-height">
-            <button type="button" class="btn-close portfolio__modal--colse" data-bs-dismiss="modal" aria-label="Close">
+            <button type="button" class="btn-close portfolio__modal--colse" data-bs-dismiss="modal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
             <div class="modal-body blog__modal--body">
@@ -262,88 +272,74 @@
                     </blockquote>
                 </div>
                 <div class="comment__box">
-                    <div class="reviews__comment--area2 mb-30">
-                        <h2 class="blog__comment--title style2 mb-30">Recent Comment</h2>
-                        <div class="reviews__comment--inner">
-                            <div class="reviews__comment--list d-flex">
-                                <div class="reviews__comment--thumb">
-                                    <img src="assets/img/other/comment-thumb1.webp" alt="comment-thumb">
-                                </div>
-                                <div class="reviews__comment--content ">
-                                    <div class="reviews__comment--top d-flex justify-content-between">
-                                        <div class="reviews__comment--top__left">
-                                            <h3 class="reviews__comment--content__title">Jakes on</h3>
-                                            <span class="reviews__comment--content__date2">December 02, 2023</span>
-                                        </div>
-                                        <button class="comment__reply--btn primary__btn">Reply</button>
-                                    </div>
-                                    <p class="reviews__comment--content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat officiis neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet ratione dolor facilis accusantium amet pariatur, non eius!</p>
-                                </div>
-                            </div>
-                            <div class="reviews__comment--list margin__left d-flex">
-                                <div class="reviews__comment--thumb">
-                                    <img src="assets/img/other/comment-thumb2.webp" alt="comment-thumb">
-                                </div>
-                                <div class="reviews__comment--content ">
-                                    <div class="reviews__comment--top d-flex justify-content-between">
-                                        <div class="reviews__comment--top__left">
-                                            <h3 class="reviews__comment--content__title">Laura Johnson</h3>
-                                            <span class="reviews__comment--content__date2">December 02, 2023</span>
-                                        </div>
-                                        <button class="comment__reply--btn primary__btn">Reply</button>
-                                    </div>
-                                    <p class="reviews__comment--content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat officiis neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet ratione dolor facilis accusantium amet pariatur, non eius!</p>
-                                </div>
-                            </div>
-                            <div class="reviews__comment--list d-flex">
-                                <div class="reviews__comment--thumb">
-                                    <img src="assets/img/other/comment-thumb3.webp" alt="comment-thumb">
-                                </div>
-                                <div class="reviews__comment--content ">
-                                    <div class="reviews__comment--top d-flex justify-content-between">
-                                        <div class="reviews__comment--top__left">
-                                            <h3 class="reviews__comment--content__title">Richard Smith</h3>
-                                            <span class="reviews__comment--content__date2">December 02, 2023</span>
-                                        </div>
-                                        <button class="comment__reply--btn primary__btn">Reply</button>
-                                    </div>
-                                    <p class="reviews__comment--content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex repellat officiis neque. Veniam, rem nesciunt. Assumenda distinctio, autem error repellat eveniet ratione dolor facilis accusantium amet pariatur, non eius!</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="reviews__comment--area2 mb-30"> 
                     </div>
-                    <div class="reviews__comment--reply__area">
-                        <form action="#">
-                            <h2 class="blog__comment--title mb-30">Leave A Comment</h2>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 mb-20">
-                                    <label>
-                                        <input class="reviews__comment--reply__input" placeholder="Your Name...." type="text">
-                                    </label>
-                                </div>  
-                                <div class="col-lg-4 col-md-6 mb-20">
-                                    <label>
-                                        <input class="reviews__comment--reply__input" placeholder="Your Email...." type="email">
-                                    </label>
-                                </div> 
-                                <div class="col-lg-4 col-md-6 mb-20">
-                                    <label>
-                                        <input class="reviews__comment--reply__input" placeholder="Your Website...." type="text">
-                                    </label>
-                                </div> 
-                                <div class="col-12 mb-15">
-                                    <textarea class="reviews__comment--reply__textarea" placeholder="Your Comments...." ></textarea>
-                                </div> 
-                                 
-                            </div>
-                            <button class="blog__comment--btn primary__btn" data-hover="Submit" type="submit">Post Comment</button>
-                        </form>   
-                    </div> 
                 </div> 
             </div>
           </div>
         </div>
     </div>
+
+    <div class="modal fade" id="blog2" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered blog__modal--dialog">
+          <div class="modal-content modal-content-height">
+            <button type="button" class="btn-close portfolio__modal--colse" data-bs-dismiss="modal" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-body blog__modal--body">
+                <div class="blog__details--media mb-30">
+                    <img src="assets/img/blog/blog-details-1.png" alt="img">
+                </div>
+                <div class="blog__details--content mb-30">
+                    <h2 class="blog__details--title mb-20">HTML and CSS</h2>
+                    <p class="blog__details--desc">It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ique maiestatis sum quod sum ut alienum nec et to summo possim persequeris vix mea. Adhuc quodsi qui, sit no tale essent electramei sum sums rodesset in pro, quo scripta feugait vidisse. Lorem ipsum dolor sit amet, eu duo ferri labor dicat Mea ex modo reque senserit, et sed hinc dolor, scaevola sum salutandi expetendis vix ne his quod mundi consequat sum. There are not many of passages of lorem</p>
+                    <p class="blog__details--desc">It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    <blockquote>
+                        <svg class="blockquote__svg" aria-hidden="true" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"></path></svg>
+                        <p class="blockquote__desc">"Tailwind css is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                    </blockquote>
+                </div>
+                <div class="comment__box">
+                    <div class="reviews__comment--area2 mb-30">
+                        <div id="disqus_thread"></div>
+                        
+                    </div>
+                </div> 
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blog3" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered blog__modal--dialog">
+          <div class="modal-content modal-content-height">
+            <button type="button" class="btn-close portfolio__modal--colse" data-bs-dismiss="modal" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-body blog__modal--body">
+                <div class="blog__details--media mb-30">
+                    <img src="assets/img/blog/blog-details-1.png" alt="img">
+                </div>
+                <div class="blog__details--content mb-30">
+                    <h2 class="blog__details--title mb-20">Yaml</h2>
+                    <p class="blog__details--desc">It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ique maiestatis sum quod sum ut alienum nec et to summo possim persequeris vix mea. Adhuc quodsi qui, sit no tale essent electramei sum sums rodesset in pro, quo scripta feugait vidisse. Lorem ipsum dolor sit amet, eu duo ferri labor dicat Mea ex modo reque senserit, et sed hinc dolor, scaevola sum salutandi expetendis vix ne his quod mundi consequat sum. There are not many of passages of lorem</p>
+                    <p class="blog__details--desc">It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    <blockquote>
+                        <svg class="blockquote__svg" aria-hidden="true" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"></path></svg>
+                        <p class="blockquote__desc">"Tailwind css is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                    </blockquote>
+                </div>
+                <div class="comment__box">
+                    <div class="reviews__comment--area2 mb-30">
+                        <div id="disqus_thread"></div>
+                        
+                    </div>
+                </div> 
+            </div>
+          </div>
+        </div>
+    </div>
+    
 
 
     <!-- Scroll top bar -->
@@ -368,6 +364,23 @@
       document.getElementById("light__to--dark")?.classList.remove("dark--version");
     } 
   </script>
-  
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://sufisuperb77.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
